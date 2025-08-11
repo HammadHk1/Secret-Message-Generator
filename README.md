@@ -2,9 +2,6 @@
 
 A simple web app that generates a secret message when a user enters their name. The app fetches a random secret message from a text file and displays it to the user.
 
-## Demo
-
-You can view a live demo of the app [here](#) (if applicable).
 
 ## Features
 
