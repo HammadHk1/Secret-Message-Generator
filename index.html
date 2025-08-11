@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Henny+Penny&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <title>Secret Message Generator</title>
+</head>
+<body>
+    <div className="heading">
+        <h1>Secret Message Generator</h1>
+    </div>
+    <div className="form-container">
+        <form id="messageForm">
+            <label for="messageInput" style="color: black;">Enter your Name:</label>
+            <input type="text" id="messageInput" required>
+            <button type="submit" >Generate Secret Message</button>
+        </form>
+    </div>
+    <h2 class="msg">Your Secret Message:</h2>
+   <div class="message-container">
+    <div class="message-content" id="secretMessage">
+        <p id="userName"></p>
+        <p id="secretMessageText">
+            PLEASE ENTER YOUR NAME TO GET SECRET MESSAGE
+        </p>
+    </div>
+</div>
+</body>
+<footer style="padding: 250px; text-align: center;">
+    <p>&copy; 2023 Secret Message Generator. All rights reserved.</p>
+</footer>
+<script src="script.js">
+</script>
+</html>

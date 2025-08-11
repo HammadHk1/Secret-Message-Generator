@@ -1,0 +1,60 @@
+html{
+    background-image: url('./Content/images/bg.jpg');
+    background-size: cover;
+    color: white;
+}
+body{
+    padding-top: 120px;
+    background: none;
+    display: grid;
+    place-items: center;
+    /* height: 40vh; */
+    gap: 20px 50px;
+}
+h1{
+    font-family: "Bungee", sans-serif;;
+}
+#messageForm{
+    display: grid;
+    row-gap: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+input{
+    padding: 12px 16px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    font-size: 16px;
+}
+button{
+    background-color: #04AA6D;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 14px 40px;
+    border-radius: 20px;
+    border: 2px solid #04AA6D;
+}
+button:hover{
+    background-color: white;
+    color: #04AA6D;
+    cursor: pointer;
+}
+h2{
+        font-family: "Bungee", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+.message-content{
+    max-width: 520px;
+    padding: 14px 40px;
+    border-radius: 20px;
+    font-family: "Henny Penny", system-ui;
+    background-color: white;
+    color: black;
+    border: 2px solid #04AA6D;
+}
+    
